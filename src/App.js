@@ -74,7 +74,7 @@ function App() {
       case 3:
         return "Very close!"
       case 4:
-        return "Wow!"
+        return "Wow! Are you Elon Musk?"
       default:
         return "" 
     }

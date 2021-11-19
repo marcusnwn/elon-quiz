@@ -48,7 +48,7 @@ $ npm run build
 $ aws s3 sync build/ s3://react-s3-demo --acl public-read
 ```
 
-Optional: Enable Cloudfront for speed up web content across the globe
+#Enable Cloudfront for speed up web content across the globe
 
 CloudFront Origin domain set to the url of the S3 Bucket website endpoint
 

@@ -1,6 +1,6 @@
-![image](https://user-images.githubusercontent.com/9261163/142579941-0d6ad51a-1105-4b4e-9def-e47d9e4ab49b.png)
+# React app for a quiz about Elon Musk
 
-# Available Scripts
+## Available Scripts
 
 In the project directory, you can run:
 
@@ -21,6 +21,8 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 # Host in AWS S3
+
+![image](https://user-images.githubusercontent.com/9261163/142579941-0d6ad51a-1105-4b4e-9def-e47d9e4ab49b.png)
 
 Create a S3 bucket, disable block public access.
 

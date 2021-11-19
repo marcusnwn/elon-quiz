@@ -1,4 +1,6 @@
-# Available Scripts
+# React app for a quiz about Elon Musk
+
+## Available Scripts
 
 In the project directory, you can run:
 
@@ -19,6 +21,8 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 # Host in AWS S3
+
+![image](https://user-images.githubusercontent.com/9261163/142579941-0d6ad51a-1105-4b4e-9def-e47d9e4ab49b.png)
 
 Create a S3 bucket, disable block public access.
 
@@ -48,10 +52,14 @@ $ npm run build
 $ aws s3 sync build/ s3://react-s3-demo --acl public-read
 ```
 
+<<<<<<< HEAD
 #Enable Cloudfront for speed up web content across the globe
+=======
+# Enable Cloudfront for speed up web content across the globe
+>>>>>>> 8f007b1a44eb04d6cc0f7710626a8e3375477af7
 
 CloudFront Origin domain set to the url of the S3 Bucket website endpoint
 
-Outcome
+Outcome:
 
 [https://d2b8lwy3qr5q2i.cloudfront.net/](https://d2b8lwy3qr5q2i.cloudfront.net/)

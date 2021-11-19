@@ -20,7 +20,11 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-# Host in AWS S3
+# Host in AWS S3 and deliver by CloudFront
+
+Outcome:
+
+[https://d2b8lwy3qr5q2i.cloudfront.net/](https://d2b8lwy3qr5q2i.cloudfront.net/)
 
 ![image](https://user-images.githubusercontent.com/9261163/142579941-0d6ad51a-1105-4b4e-9def-e47d9e4ab49b.png)
 
@@ -55,7 +59,3 @@ $ aws s3 sync build/ s3://react-s3-demo --acl public-read
 # Enable Cloudfront for speed up web content across the globe
 
 CloudFront Origin domain set to the url of the S3 Bucket website endpoint
-
-Outcome:
-
-[https://d2b8lwy3qr5q2i.cloudfront.net/](https://d2b8lwy3qr5q2i.cloudfront.net/)

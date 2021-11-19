@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/9261163/142579941-0d6ad51a-1105-4b4e-9def-e47d9e4ab49b.png)
+
 # Available Scripts
 
 In the project directory, you can run:
@@ -48,10 +50,10 @@ $ npm run build
 $ aws s3 sync build/ s3://react-s3-demo --acl public-read
 ```
 
-Optional: Enable Cloudfront for speed up web content across the globe
+# Enable Cloudfront for speed up web content across the globe
 
 CloudFront Origin domain set to the url of the S3 Bucket website endpoint
 
-Outcome
+Outcome:
 
 [https://d2b8lwy3qr5q2i.cloudfront.net/](https://d2b8lwy3qr5q2i.cloudfront.net/)

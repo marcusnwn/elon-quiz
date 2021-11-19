@@ -1,4 +1,4 @@
-## Available Scripts
+# Available Scripts
 
 In the project directory, you can run:
 
@@ -47,3 +47,11 @@ In local environment, build and copy the files to S3 bucket
 $ npm run build
 $ aws s3 sync build/ s3://react-s3-demo --acl public-read
 ```
+
+Optional: Enable Cloudfront for speed up web content across the globe
+
+CloudFront Origin domain set to the url of the S3 Bucket website endpoint
+
+Outcome
+
+[https://d2b8lwy3qr5q2i.cloudfront.net/](https://d2b8lwy3qr5q2i.cloudfront.net/)
